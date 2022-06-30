@@ -1,0 +1,62 @@
+<!doctype css>>
+.container-fluid {
+
+	background-color: black;
+}
+
+
+main{
+
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	background-color: white;
+	text-align: left;
+}
+
+header{
+	background-color: black;
+	border : 1px solid #c0c0c0;
+	font-size: 50px;
+	padding: 10px 0;
+	text-align: center;
+	
+}
+
+footer{
+
+	background-color: white;
+	border : 1px solid #c0c0c0;
+	font-size: 20px;
+	padding: 10px 0;
+	text-align: Right;
+	margin: var(--spacing);
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: black;
+    overflow: auto;
+}
+
+
+
+@media screen and (min-width: 1920px) {
+  main {
+    height: 80vh;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  main {
+    height: 60vh;
+  }
+}
+
+
+
+
+
+
+
